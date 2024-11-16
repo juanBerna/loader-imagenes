@@ -1,0 +1,7 @@
+{
+  "name": "loader-imagenes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
