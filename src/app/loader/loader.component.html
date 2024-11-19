@@ -1,0 +1,15 @@
+<ion-content>
+  <div class="loader-container">
+    <div class="loader-content">
+      <div class="image-wrapper">
+        <ion-img [src]="images[currentIndex]?.src" alt="Loader Image">
+        </ion-img>
+        <div class="loading-text">{{ images[currentIndex]?.text }}
+
+        </div> <ion-spinner name="crescent">
+
+        </ion-spinner>
+      </div>
+    </div>
+  </div>
+</ion-content>
